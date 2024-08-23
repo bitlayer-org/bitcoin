@@ -38,7 +38,7 @@ static constexpr unsigned int MAX_PUBKEYS_PER_MULTI_A = 999;
 static const int MAX_SCRIPT_SIZE = 10000;
 
 // Maximum number of values on script interpreter stack
-static const int MAX_STACK_SIZE = 1000;
+static const int MAX_STACK_SIZE = 2000;
 
 // Threshold for nLockTime: below this value it is interpreted as block number,
 // otherwise as UNIX timestamp.
